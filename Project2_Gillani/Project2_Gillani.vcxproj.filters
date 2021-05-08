@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="STLContainer">
+      <UniqueIdentifier>{89e3c677-1e53-4273-880f-6d45f057ba5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileHelper">
+      <UniqueIdentifier>{4a28c0f6-ab52-4804-8a95-40f38a4b82fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TerrainUtilities">
+      <UniqueIdentifier>{62248361-acf1-4c14-9654-0f40fd1b69c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="themain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cRoad.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="terrainCalc.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="terrainCalc.cpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cNode.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cEdge.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadGenFiles.hpp">
+      <Filter>FileHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="cPointXYZ.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cSmartArray.hpp">
+      <Filter>STLContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="cCity.hpp">
+      <Filter>TerrainUtilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
